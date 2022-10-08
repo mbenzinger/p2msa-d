@@ -25,6 +25,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <link rel="stylesheet" href="styling.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -44,16 +45,16 @@
      <p>The Shoe Box Inventory Management System tracks inventory in real time to alert associates when orders should be placed to avoid out-of-stock situations.</p> 
      <p> Click on the links below to Create a new shoe, Read (view) the current inventory, Update the current inventory, or Delete inventory.
     </p>
-    <button type="button">Create New Shoe</button>
-    <button type="button">Read (View) Inventory</button>
-    <button type="button">Udate Inventory</button>
+    <button type="button" onclick="New()">Create New Shoe</button>
+    <button type="button">View Inventory</button>
+    <button type="button">Update Inventory</button>
     <button type="button">Delete Inventory</button>
-
+  <script src="index.js"></script>
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
   <!-- Load our React component. -->
-  <script src="create_New_Shoe.js"></script>
+  <script src="create.js"></script>
   <script src="read_inventory.js"></script>
   <script src="update_inventory.js"></script>
   <script src="delete_inventory.js"></script>
