@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 })
 
 // INVENTORY
-const inventoryController = require('./controllers/inventory_controllers')
+const inventoryController = require('./controllers/inventory_controller')
 app.use('/inventory', inventoryController)
 
 

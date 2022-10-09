@@ -74,7 +74,7 @@ inventory.delete('/:id', (req, res) => {
 })
 
 // Export
-module.exports = breads
+module.exports = inventory
 
 //ORIGINAL SQL STUFF
 // // DEPENDENCIES
